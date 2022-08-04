@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-color{
+    background: linear-gradient( #e942ff,
+ #8838ff);
+    background-position: top;
+    position: absolute;
+    height: 100%;
+    width: 30vw;
+    border-radius: 0 0 280px 280px;
+    padding: 3rem;
+    left: -40px;
+}
+.phone{
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px gray;
+    /* position: absolute; */
+    left:220px;
+    padding: 1rem;
+    height: 90vh;
+    margin-top: -20px;
+    margin-left: 330px;
+    width: 20vw;
+}
+.phone-top-cover{
+    background: #fff;
+    border-radius: 60px;
+    height: 30px;
+    margin-top: -40px;
+    /* width: 10v; */
+    /* position: absolute; */
+
+    /* top: 3rem; */
+}
+.phone-top{
+    background: linear-gradient( to right, #8838ff, #e942ff
+    );
+    border-radius: 30px 30px 10px 10px;
+    height: 90px;
+    padding: 30px 50px;
+    /* width: 100%; */
+    /* position: absolute; */
+    /* margin-bottom: -10px; */
+
+}
+.phone-border{
+    background: #f5f3f7;
+    border-radius: 0 0 40px 40px;
+    margin-top: -5px;
+    /* position: absolute; */
+    height:445px;
+    /* left: 250px; */
+    /* width: 39vh; */
+}
