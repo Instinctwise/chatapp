@@ -7,8 +7,11 @@ a{
     text-decoration: none;
     color: #fff;
 }
+html,body{
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
 .container{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     background-color:  hsl(270, 20%, 96%) ;
     display: flex;
     justify-content: space-between;
@@ -16,11 +19,10 @@ a{
 .bg-color{
     background: linear-gradient( #e942ff,
   #8838ff);
-    background-position: top;
-    /* position: absolute; */
     height: 700px;
+    /* position: absolute; */
     width: 350px;
-    border-radius: 0 0 280px 280px;
+    border-radius: 0 0 350px 350px;
     padding: 3rem;
     margin-left: -80px;
     margin-bottom: 3rem;
@@ -30,7 +32,7 @@ a{
     border-radius: 40px;
     box-shadow: 2px 2px 2px gray;
     /* position: absolute; */
-    left:220px;
+    left:150px;
     padding: 1rem;
     height: 660px;
     margin-top: -20px;
@@ -183,18 +185,18 @@ input:focus{
     background-color: rgb(255, 255, 255);
 }
 .second-bg-color{
-    background-color: rgb(233, 206, 252);
-    background-size: cover;
+    background-color: rgb(239, 222, 252);
+    /* background-size: cover; */
     /* position: absolute; */
     height: 700px;
     width: 350px;
-    border-radius:280px 280px 0 0;
+    border-radius:350px 350px 0 0;
     padding: 3rem;
-    margin-top: 3rem;
-    margin-right: -80px;
+    top: 5rem;
+    right: -80px;
 }
 .text{
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: -400px;
     width: 485px;
     /* position: absolute; */
@@ -208,12 +210,43 @@ input:focus{
     line-height: 30px;
     color: rgb(170, 163, 177);
 }
+/* media querry */
 @media screen and ( max-width:768px){
+    .container{
+        flex-direction: column;
+    }
     .bg-color{
-        left: -150px;
+        margin-left: -140px;
+        margin-bottom: 0;
+    }
+    .phone{
+        box-shadow: 4px 4px 4px gray;
+        margin-top: 20px;
+        position: relative;
+        transform: translate(-60%, 0%);
     }
     .second-bg-color{
-        right: -150px;
-        top: 100px;
+        margin-left: 350px;
+        margin-top: -70px;
+        height: 520px;
+    }
+    .text{
+        width: 380px;
+        margin-left: -300px;
+        margin-top: 150px;
+        text-align: center;
+    }
+}
+@media screen and ( max-width:500px) {
+    .bg-color{
+        margin-left: -160px;
+        border-radius: 0 0 350px 350px;
+    }
+    .phone{
+        transform: translate(-60%, 0%);
+    }
+    .second-bg-color{
+        margin-left: 300px;
+        border-radius: 350px 350px 0 0;
     }
 }
