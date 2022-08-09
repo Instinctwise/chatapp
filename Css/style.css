@@ -198,7 +198,7 @@ input:focus{
 .text{
     margin-top: 100px;
     margin-left: -400px;
-    width: 470px;
+    width: 400px;
     /* position: absolute; */
 }
 .text h1{
@@ -209,6 +209,7 @@ input:focus{
     font-size: 16px;
     line-height: 30px;
     color: rgb(170, 163, 177);
+    width: 90%;
 }
 /* media querry */
 @media screen and ( max-width:768px){
