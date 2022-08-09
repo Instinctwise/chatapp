@@ -192,8 +192,8 @@ input:focus{
     width: 350px;
     border-radius:350px 350px 0 0;
     padding: 3rem;
-    top: 5rem;
-    right: -80px;
+    margin-top: 5rem;
+    margin-right: -80px;
 }
 .text{
     margin-top: 100px;
