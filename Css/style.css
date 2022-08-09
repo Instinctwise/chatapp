@@ -239,14 +239,18 @@ input:focus{
 }
 @media screen and ( max-width:500px) {
     .bg-color{
-        margin-left: -160px;
+        margin-left: -180px;
         border-radius: 0 0 350px 350px;
     }
     .phone{
-        transform: translate(-60%, 0%);
+        transform: translate(-75%, 10%);
     }
     .second-bg-color{
-        margin-left: 300px;
+        margin-left: 250px;
         border-radius: 350px 350px 0 0;
+    }
+    .text{
+        margin-left: -250px;
+        margin-top: 150px;
     }
 }
